@@ -41,7 +41,7 @@
                         }
                     
                         function gotFileEntry(fileEntry) {
-                            fileEntry.file(overWrite, fail);
+                            fileEntry.createWriter(overWrite, fail);
                         }
                     
                         function overWrite(writer) {
