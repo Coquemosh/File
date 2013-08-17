@@ -14,7 +14,7 @@
                         }
                     
                         function gotFileEntry(fileEntry) {
-                            fileEntry.createWriter(readAsText, fail);
+                            fileEntry.file(readAsText, fail);
                         }
                     
                         function readAsText(file) {
